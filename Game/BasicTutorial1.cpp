@@ -1,4 +1,5 @@
 //Test change
+#define OGRE_BITES_HAVE_SDL 1
 
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
@@ -70,6 +71,28 @@ void BasicTutorial1::setup()
 	// and tell it to render into the main window
 	getRenderWindow()->addViewport(cam);
 	//! [camera]
+
+		//! [entity2]
+	Entity* ogreEntity2 = scnMgr->createEntity("ogrehead.mesh");
+	SceneNode* ogreNode2 = scnMgr->getRootSceneNode()->createChildSceneNode(Vector3(84, 48, 0));
+	ogreNode2->attachObject(ogreEntity2);
+	//! [entity2]
+
+	//! [entity3]
+	Entity* ogreEntity3 = scnMgr->createEntity("ogrehead.mesh");
+	SceneNode* ogreNode3 = scnMgr->getRootSceneNode()->createChildSceneNode();
+	ogreNode3->setPosition(0, 104, 0);
+	ogreNode3->setScale(2, 1.2, 1);
+	ogreNode3->attachObject(ogreEntity3);
+	//! [entity3]
+
+	//! [entity4]
+	Entity* ogreEntity4 = scnMgr->createEntity("ogrehead.mesh");
+	SceneNode* ogreNode4 = scnMgr->getRootSceneNode()->createChildSceneNode();
+	ogreNode4->setPosition(-84, 48, 0);
+	ogreNode4->roll(Degree(-90));
+	ogreNode4->attachObject(ogreEntity4);
+	//! [entity4]
 
 }
 
