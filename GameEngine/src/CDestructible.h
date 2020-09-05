@@ -1,1 +1,0 @@
-// Handles an objects destruction characteristics

@@ -46,3 +46,6 @@ Debug/terrain.hvk
 *.lastbuildstate
 *.stamp
 *.depend
+*.dll
+/media
+/_UpgradeReport_Files

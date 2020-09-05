@@ -1,1 +1,0 @@
-// Specifies which messages a component should listen for

@@ -1,1 +1,0 @@
-// Specifies an object that has a trigger property

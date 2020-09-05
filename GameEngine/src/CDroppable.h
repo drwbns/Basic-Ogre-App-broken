@@ -1,1 +1,0 @@
-// Specifies an Object that can be dropped

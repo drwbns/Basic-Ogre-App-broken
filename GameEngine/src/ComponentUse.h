@@ -1,2 +1,0 @@
-//This is basically the data-driven part of the structure. A Use is a collection of use content which can be loaded from a file or defined in code. 
-//What's important is that it does not need to create everything that's underneath it at load time - minimal set up is creating the UseSections (see below), 

@@ -1,1 +1,0 @@
-// A Manager class for events
