@@ -1,0 +1,1 @@
+// Handles an objects exploding characteristics

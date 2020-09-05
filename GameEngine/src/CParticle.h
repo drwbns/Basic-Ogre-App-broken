@@ -1,0 +1,1 @@
+// Specifies an Object with a particle effect

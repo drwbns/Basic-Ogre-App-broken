@@ -1,0 +1,1 @@
+// A generic Event class

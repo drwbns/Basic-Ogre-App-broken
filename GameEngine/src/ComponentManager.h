@@ -1,0 +1,1 @@
+// A manager class for an objects components

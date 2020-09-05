@@ -1,0 +1,1 @@
+// Generic Manager Interface
