@@ -1,6 +1,3 @@
-//Test change
-#define OGRE_BITES_HAVE_SDL 1
-
 #include "Ogre.h"
 #include "OgreApplicationContext.h"
 #include "OgreInput.h"
