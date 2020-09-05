@@ -46,3 +46,5 @@ Debug/terrain.hvk
 *.dll
 /media
 /_UpgradeReport_Files
+*.ilk
+*.sbr
