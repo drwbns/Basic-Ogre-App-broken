@@ -23,9 +23,6 @@ ipch/game-61826163/game-e1e59f66.ipch
 data
 Debug/Game.exe
 Debug/Game.ilk
-Debug/ogre.cfg
-Debug/plugins_d.cfg
-Debug/resources_d.cfg
 
 Debug/terrain.hvk
 *.png
